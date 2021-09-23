@@ -1,0 +1,42 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Ride",
+		"_postman_id": "2f833adc-4c55-5851-b3fc-1275f225e696",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/ride",
+			"request": {
+				"url": "http://localhost:8080/ride",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Diamondback\",\n\t\"description\": \"A Kings Island fast roller coster ride\",\n\t\"thrillFactor\": \"8\",\n\t\"vomitFactor\":\"4\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ride",
+			"request": {
+				"url": "http://localhost:8080/ride",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
